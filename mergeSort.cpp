@@ -23,4 +23,10 @@ void input()
     cout << "\n--------------------------" << endl;
     cout << "\nInputkan Isi Element array" << endl;
     cout << "\n--------------------------" << endl;
+
+    for (int i = 0; i < n; i++)
+    {
+        cout << "Array Index ke- " << i << " : ";
+        cin >> arr[i];    
+    }
 }
